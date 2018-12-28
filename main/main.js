@@ -37,7 +37,6 @@ myApp.config(function ($stateProvider) {
       url: '/about',
       component: 'about'
     },
-
     {
       name: 'people',
       url: '/people',
@@ -48,7 +47,11 @@ myApp.config(function ($stateProvider) {
         }
       }
     },
-
+    {
+      name: 'personForm',
+      url: '/personForm',
+      component: 'personForm'
+    },
     {
       name: 'people.person',
       url: '/{personId}',
